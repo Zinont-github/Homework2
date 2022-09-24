@@ -1,6 +1,7 @@
 ﻿//Напишите программу которая принимает трехзначное число и выводит вторую цифру числа
 
 int number = ReadInt("Введите трехзначное число: ");
+
 Console.WriteLine(number);
 Console.WriteLine(DeleteFirstThridDigit(number));
 
